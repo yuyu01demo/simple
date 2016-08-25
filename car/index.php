@@ -80,8 +80,8 @@
             </ul>
           </div>
           <!--前/后按钮代码-->
-<!--           <a class="prev" href="javascript:void(0)"></a>
-          <a class="next" href="javascript:void(0)"></a> -->
+          <a class="prev" href="javascript:void(0)"></a>
+          <a class="next" href="javascript:void(0)"></a>
         </div><!--租车首页焦点图-->
       </div>
       
