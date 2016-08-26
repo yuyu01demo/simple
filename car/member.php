@@ -5,5 +5,8 @@
 </head>
 <body>
 hello world!
+<<<<<<< HEAD
 </body>
+=======
+>>>>>>> dev
 </html>
