@@ -1,0 +1,22 @@
+{
+  "name": "github",
+  "version": "1.0.0",
+  "description": "my first package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuyu01demo/simple.git"
+  },
+  "keywords": [
+    "simple"
+  ],
+  "author": "simple",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yuyu01demo/simple/issues"
+  },
+  "homepage": "https://github.com/yuyu01demo/simple#readme"
+}

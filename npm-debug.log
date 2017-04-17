@@ -1,0 +1,47 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'D:\\nodejs\\node.exe',
+1 verbose cli   'D:\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'info',
+1 verbose cli   'webpack' ]
+2 info using npm@3.10.10
+3 info using node@v6.9.5
+4 silly mapToRegistry name webpack
+5 silly mapToRegistry using default registry
+6 silly mapToRegistry registry https://registry.npmjs.org/
+7 silly mapToRegistry data Result {
+7 silly mapToRegistry   raw: 'webpack',
+7 silly mapToRegistry   scope: null,
+7 silly mapToRegistry   escapedName: 'webpack',
+7 silly mapToRegistry   name: 'webpack',
+7 silly mapToRegistry   rawSpec: '',
+7 silly mapToRegistry   spec: 'latest',
+7 silly mapToRegistry   type: 'tag' }
+8 silly mapToRegistry uri https://registry.npmjs.org/webpack
+9 verbose request uri https://registry.npmjs.org/webpack
+10 verbose request no auth needed
+11 info attempt registry request try #1 at 10:59:31
+12 verbose request id 49841d6b752ef194
+13 http request GET https://registry.npmjs.org/webpack
+14 info retry will retry, error on last attempt: Error: unable to verify the first certificate
+15 info attempt registry request try #2 at 10:59:41
+16 http request GET https://registry.npmjs.org/webpack
+17 info retry will retry, error on last attempt: Error: unable to verify the first certificate
+18 info attempt registry request try #3 at 11:00:41
+19 http request GET https://registry.npmjs.org/webpack
+20 verbose stack Error: unable to verify the first certificate
+20 verbose stack     at Error (native)
+20 verbose stack     at TLSSocket.<anonymous> (_tls_wrap.js:1079:38)
+20 verbose stack     at emitNone (events.js:86:13)
+20 verbose stack     at TLSSocket.emit (events.js:185:7)
+20 verbose stack     at TLSSocket._finishInit (_tls_wrap.js:603:8)
+20 verbose stack     at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:433:38)
+21 verbose cwd D:\github
+22 error Windows_NT 10.0.14393
+23 error argv "D:\\nodejs\\node.exe" "D:\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "info" "webpack"
+24 error node v6.9.5
+25 error npm  v3.10.10
+26 error code UNABLE_TO_VERIFY_LEAF_SIGNATURE
+27 error unable to verify the first certificate
+28 error If you need help, you may report this error at:
+28 error     <https://github.com/npm/npm/issues>
+29 verbose exit [ 1, true ]
