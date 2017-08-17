@@ -1,1 +1,1 @@
-There is a instance based in baidu map api
+There is instance based in baidu map api
